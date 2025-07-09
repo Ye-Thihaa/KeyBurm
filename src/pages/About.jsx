@@ -53,7 +53,7 @@ const About = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-[#F4F4F5] mb-4">
-              About MyanType
+              About KeyBurm
             </h1>
             <p className="text-lg text-[#777C90] max-w-2xl mx-auto">
               A modern typing test application designed to help users improve their typing skills 

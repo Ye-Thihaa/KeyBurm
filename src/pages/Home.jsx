@@ -9,7 +9,7 @@ const Homepage = () => {
     <div className="min-h-screen p-4 text-white flex flex-col">
       <Navbar />
       <div className="flex flex-col items-center justify-center flex-grow">
-        <h1 className="text-5xl font-bold mb-4">Myan-Type</h1>
+        <h1 className="text-5xl font-bold mb-4">Key-Burm</h1>
         <div className="text-lg text-gray-400 mb-6">
           <TypeAnimation
             sequence={[
@@ -50,7 +50,7 @@ const Homepage = () => {
       </div>
       <footer className="py-4 text-center">
         <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} Myan-Type. All rights reserved.
+          © {new Date().getFullYear()} Key-Burm. All rights reserved.
         </p>
       </footer>
     </div>

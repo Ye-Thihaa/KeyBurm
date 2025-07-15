@@ -152,10 +152,19 @@ const About = () => {
                 variant="secondary" 
                 size="lg"
                 className="bg-white text-[#141723] hover:bg-gray-100"
-                onClick={() => window.open('https://github.com/Ye-Thiha84/MyanType-V2.git', '_blank')}
+                onClick={() => window.open('https://github.com/one-project-one-month/MyanType-React.git', '_blank')}
               >
                 <GitBranch className="w-4 h-4 mr-2" />
-                View on GitHub
+                Frontend
+              </Button>
+              <Button 
+                variant="secondary" 
+                size="lg"
+                className="bg-white text-[#141723] hover:bg-gray-100 mx-5"
+                onClick={() => window.open('https://github.com/one-project-one-month/MyanType-Nodejs.git', '_blank')}
+              >
+                <GitBranch className="w-4 h-4 mr-2" />
+                Backend
               </Button>
             </CardContent>
           </Card>
